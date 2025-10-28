@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3649178727",
+    "Type": "User",
+    "GUID": "{7AA6ED49-7158-42F5-9C4C-251D3E3BC437}",
+    "Language": "SFX",
+    "Hash": "{67B8EEA7-536E-E445-D9F7-3E38C99BEE71}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\CameraMovement",
+    "ShortName": "CameraMovement",
+    "Path": "CameraMovement.bnk",
+    "Media": [
+     {
+      "Id": "857663210",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Edited\\FOL3_Sp_01.wav",
+      "CachePath": "F5/{F5B3100B-8ACC-54FD-58B3-9D7BE4B8C57C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "877846287",
+      "Name": "CameraMove",
+      "ObjectPath": "\\Events\\Default Work Unit\\CameraMove",
+      "GUID": "{719FECF9-33E0-40CA-B674-F601B5352D51}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0833333",
+      "DurationMax": "2.0833333",
+      "MediaRefs": [
+       {
+        "Id": "857663210"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DB7BD9E9-9B1D-E993-BD05-6C0F2BE2F5A1}"
+ }
+}

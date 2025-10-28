@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3416383014",
+    "Type": "Event",
+    "GUID": "{730A826E-BBB3-456C-AF72-00283E7162DB}",
+    "Language": "SFX",
+    "Hash": "{CE95CE84-9D33-8DA5-B359-0361531007B4}",
+    "ObjectPath": "OptionSelect",
+    "ShortName": "OptionSelect",
+    "Path": "Event/OptionSelect.bnk",
+    "Media": [
+     {
+      "Id": "410069902",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Edited\\ES_Buttons, Beeps - Epidemic Sound-ChSt_01-01.wav",
+      "Path": "Media/410069902.wem",
+      "CachePath": "4B/{4B9D0179-DBF8-2667-36F5-C5E2B02C2A1E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3416383014",
+      "Name": "OptionSelect",
+      "ObjectPath": "\\Events\\Default Work Unit\\OptionSelect",
+      "GUID": "{730A826E-BBB3-456C-AF72-00283E7162DB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.31451932",
+      "DurationMax": "0.31451932",
+      "MediaRefs": [
+       {
+        "Id": "410069902"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C7AF2E05-F5E7-8E4A-09D2-5AE4CD1F9FE5}"
+ }
+}

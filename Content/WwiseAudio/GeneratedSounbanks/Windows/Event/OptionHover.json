@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1049624628",
+    "Type": "Event",
+    "GUID": "{E3F8506D-E33D-4A57-A759-99F20CC93DF9}",
+    "Language": "SFX",
+    "Hash": "{A7AFF02B-998F-2B46-F4B3-543B4E8DA1B5}",
+    "ObjectPath": "OptionHover",
+    "ShortName": "OptionHover",
+    "Path": "Event/OptionHover.bnk",
+    "Media": [
+     {
+      "Id": "145932348",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Tuesday\\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav",
+      "Path": "Media/145932348.wem",
+      "CachePath": "DC/{DC24CC3B-DD9E-0CBF-C7EA-3EFEBE0F9BCE}.wem"
+     },
+     {
+      "Id": "474370461",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Tuesday\\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav",
+      "Path": "Media/474370461.wem",
+      "CachePath": "19/{192D7CB9-4053-4E88-2C6A-3D6AED5A1734}.wem"
+     },
+     {
+      "Id": "860079385",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Tuesday\\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav",
+      "Path": "Media/860079385.wem",
+      "CachePath": "E7/{E7C5F4B3-66F0-E2BC-A5BA-E719F78301E2}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1049624628",
+      "Name": "OptionHover",
+      "ObjectPath": "\\Events\\Default Work Unit\\OptionHover",
+      "GUID": "{E3F8506D-E33D-4A57-A759-99F20CC93DF9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25700647",
+      "DurationMax": "0.27750522",
+      "MediaRefs": [
+       {
+        "Id": "145932348"
+       },
+       {
+        "Id": "474370461"
+       },
+       {
+        "Id": "860079385"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D9288614-01B6-A660-3B17-0B44BFDCDCDF}"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "85412153",
+    "Type": "User",
+    "GUID": "{FA471B3D-D72B-4BD0-8E04-6159ED49DDF7}",
+    "Language": "SFX",
+    "Hash": "{C978872C-0A23-2789-2A14-4BCEDC027AB5}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
+    "ShortName": "Ambience",
+    "Path": "Ambience.bnk",
+    "Media": [
+     {
+      "Id": "647637767",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ES_Cave, Dark Bubbles - Epidemic Sound.wav",
+      "CachePath": "BE/{BEAE05D5-54F5-9C95-8A33-42D34313E54E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "819240495",
+      "Name": "AmbienceForstreet",
+      "ObjectPath": "\\Events\\Default Work Unit\\AmbienceForstreet",
+      "GUID": "{C54CA165-8ACA-424C-84CF-BE1E69ECE0B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "145.1993",
+      "DurationMax": "145.1993",
+      "MediaRefs": [
+       {
+        "Id": "647637767"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{177667AE-2CC7-AD6E-5F5F-45A3073C16AB}"
+ }
+}
