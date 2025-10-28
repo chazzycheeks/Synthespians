@@ -1,0 +1,68 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "340271938",
+    "Type": "User",
+    "GUID": "{6BBD4A50-CBD0-49BB-88B9-7B1D9FA4ADE4}",
+    "Language": "SFX",
+    "Hash": "{2EFB0D93-76EA-6414-9486-CCD3FBDC4066}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Walking",
+    "ShortName": "Walking",
+    "Path": "Walking.bnk",
+    "Media": [
+     {
+      "Id": "553498931",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ES_Asphalt, Male, Walk - Epidemic Sound.wav",
+      "CachePath": "C2/{C24BA27D-3B52-A450-AF5E-8D78726CA5C2}.wem"
+     },
+     {
+      "Id": "678717661",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ES_Asphalt, Male, Walk - Epidemic Sound.wav",
+      "CachePath": "65/{65CDC0BD-1C1B-113F-9B13-561856C2298E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "946378050",
+      "Name": "WalkingStart",
+      "ObjectPath": "\\Events\\Default Work Unit\\WalkingStart",
+      "GUID": "{B1AD45AD-5983-4975-97D1-55029E4FBA42}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3603635",
+      "DurationMax": "0.56592274",
+      "MediaRefs": [
+       {
+        "Id": "553498931"
+       },
+       {
+        "Id": "678717661"
+       }
+      ]
+     },
+     {
+      "Id": "400344506",
+      "Name": "WalkingStop",
+      "ObjectPath": "\\Events\\Default Work Unit\\WalkingStop",
+      "GUID": "{6437CC4A-A01B-4BD5-8047-48B56A5238A3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E3A7E0D0-E847-9EDB-B288-FC36B3826880}"
+ }
+}
