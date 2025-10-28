@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3192784746",
+    "Type": "User",
+    "GUID": "{E12C1E0A-14FA-42AA-A944-1E04D1FACD03}",
+    "Language": "SFX",
+    "Hash": "{DFD3C58E-0490-A640-653D-5C1CB96EA1C0}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lights",
+    "ShortName": "Lights",
+    "Path": "Lights.bnk",
+    "Media": [
+     {
+      "Id": "261797555",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Edited\\FX.B3_01.wav",
+      "CachePath": "E3/{E375F399-70DE-DD0D-7F3D-A59AFE282B28}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3192784746",
+      "Name": "Lights",
+      "ObjectPath": "\\Events\\Default Work Unit\\Lights",
+      "GUID": "{500BFC1F-8BCB-4558-B189-2905A8E31CCD}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "261797555"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8C64452E-B156-4650-67DF-AEBC19C9B414}"
+ }
+}

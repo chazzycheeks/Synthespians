@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "408500223",
+    "Type": "User",
+    "GUID": "{BD64895C-EF6E-4790-BD8F-2743E0CDAA70}",
+    "Language": "SFX",
+    "Hash": "{1EA2C96D-CF4D-242C-63F5-D9B04BCBBE78}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Telephone",
+    "ShortName": "Telephone",
+    "Path": "Telephone.bnk",
+    "Media": [
+     {
+      "Id": "75947070",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound.wav",
+      "CachePath": "5D/{5D9529CF-4A71-51D1-B955-01D0968BD063}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "803747085",
+      "Name": "TelephoneStart",
+      "ObjectPath": "\\Events\\Default Work Unit\\TelephoneStart",
+      "GUID": "{8605D8C1-5B3F-434A-A37E-7B229FF01535}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "75947070"
+       }
+      ]
+     },
+     {
+      "Id": "1284012751",
+      "Name": "TelephoneStop",
+      "ObjectPath": "\\Events\\Default Work Unit\\TelephoneStop",
+      "GUID": "{AD87F2F3-BF9E-40E1-A86F-FE6D4A9CCB43}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4CEA84AA-0C9C-2166-4C13-882E3365AF39}"
+ }
+}

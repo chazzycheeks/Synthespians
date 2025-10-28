@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D2B8A02-23CE-4C60-BA10-173C504C7E4C}" SchemaVersion="123" RootDocumentID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}" ParentDocumentID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}">
+	<AudioObjects>
+		<WorkUnit Name="Telephone door" ID="{5D2B8A02-23CE-4C60-BA10-173C504C7E4C}" OwnerID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Door Open" ID="{F8F0D81B-53F2-4177-8FFD-B7E59B6CF9A2}" ShortID="1020289680">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-80</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ES_Open, Close, Squeaky - Epidemic Sound" ID="{3B46A0A1-8CA7-4C19-A966-8E6F2371CB09}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.221109554921981"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0842726299263923"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="13.102566444504"/>
+								<Property Name="TrimEnd" Type="Real64" Value="14.5352018907608"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Tuesday\ES_Open, Close, Squeaky - Epidemic Sound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="213780744"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ES_Open, Close, Squeaky - Epidemic Sound" ID="{3B46A0A1-8CA7-4C19-A966-8E6F2371CB09}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Door Close" ID="{3C04A086-FB5E-4394-B256-62077A1E51F0}" ShortID="58363211">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ES_Open, Close, Squeaky - Epidemic Sound" ID="{16DC7987-EFFD-4126-ADE5-32F4033109FD}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.238685259469934"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.166066178822572"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="8.68008088241841"/>
+								<Property Name="TrimEnd" Type="Real64" Value="9.69262348798899"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Tuesday\ES_Open, Close, Squeaky - Epidemic Sound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="880565442"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ES_Open, Close, Squeaky - Epidemic Sound" ID="{16DC7987-EFFD-4126-ADE5-32F4033109FD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

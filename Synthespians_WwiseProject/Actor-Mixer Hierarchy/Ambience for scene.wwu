@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EC2CBBEE-0E38-4C32-8254-5A5F35383D6A}" SchemaVersion="123" RootDocumentID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}" ParentDocumentID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}">
+	<AudioObjects>
+		<WorkUnit Name="Ambience for scene" ID="{EC2CBBEE-0E38-4C32-8254-5A5F35383D6A}" OwnerID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Ambience" ID="{4109EF5E-C645-4979-99B4-A4C414C86177}" ShortID="179569061">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>11</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>29</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-330</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ES_Cave, Dark Bubbles - Epidemic Sound" ID="{1346632A-8EAD-493E-A91F-BC0501D68952}">
+							<Language>SFX</Language>
+							<AudioFile>ES_Cave, Dark Bubbles - Epidemic Sound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="647637767"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ES_Cave, Dark Bubbles - Epidemic Sound" ID="{1346632A-8EAD-493E-A91F-BC0501D68952}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
