@@ -1,0 +1,134 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2341029961",
+    "Type": "User",
+    "GUID": "{5B053B91-21F9-4205-9C0E-BE2B13BFB292}",
+    "Language": "SFX",
+    "Hash": "{529C70BF-FF15-3AA0-0B57-B56826CF4E4F}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayDialogue",
+    "ShortName": "PlayDialogue",
+    "Path": "PlayDialogue.bnk",
+    "Media": [
+     {
+      "Id": "201367948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Probe Droid.wav",
+      "CachePath": "58/{5845FCD1-5CA0-6275-E06F-88B223703CD9}.wem"
+     },
+     {
+      "Id": "388500897",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Probe Droid.wav",
+      "CachePath": "9F/{9FFD0BE5-3A11-01F3-6830-A37CB0D089CF}.wem"
+     },
+     {
+      "Id": "424485593",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Probe Droid.wav",
+      "CachePath": "B7/{B7E95B0B-B67F-8AC5-49BB-5917C2954BD1}.wem"
+     },
+     {
+      "Id": "565492887",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Probe Droid.wav",
+      "CachePath": "10/{109FD453-1EF8-04A7-354F-3378D44A7FA5}.wem"
+     },
+     {
+      "Id": "617261208",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Probe Droid.wav",
+      "CachePath": "CD/{CD352E4A-263D-DA4D-78FD-7094A1571D46}.wem"
+     },
+     {
+      "Id": "750486195",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Probe Droid.wav",
+      "CachePath": "60/{60F08622-C4E1-CD7C-2904-7624D57B393F}.wem"
+     },
+     {
+      "Id": "871990463",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Probe Droid.wav",
+      "CachePath": "89/{89EB439E-29F4-FC4A-BBAC-0BDA0FE23D83}.wem"
+     },
+     {
+      "Id": "1035819428",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Probe Droid.wav",
+      "CachePath": "11/{11639076-CFB5-6877-4DF5-9EEB91084A6F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "93220501",
+      "Name": "DialougeStart",
+      "ObjectPath": "\\Events\\Default Work Unit\\DialougeStart",
+      "GUID": "{CF5DB249-3A67-4E85-B18F-C11A8A81BBCE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9782402",
+      "DurationMax": "2.2585814",
+      "MediaRefs": [
+       {
+        "Id": "201367948"
+       },
+       {
+        "Id": "388500897"
+       },
+       {
+        "Id": "424485593"
+       },
+       {
+        "Id": "565492887"
+       },
+       {
+        "Id": "617261208"
+       },
+       {
+        "Id": "750486195"
+       },
+       {
+        "Id": "871990463"
+       },
+       {
+        "Id": "1035819428"
+       }
+      ]
+     },
+     {
+      "Id": "1657599607",
+      "Name": "DialougeStop",
+      "ObjectPath": "\\Events\\Default Work Unit\\DialougeStop",
+      "GUID": "{D0051BC7-B4A9-4EFC-94D6-538912B4FAA2}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{40D55C44-285E-97F3-7066-02F4CAFD6B62}"
+ }
+}
