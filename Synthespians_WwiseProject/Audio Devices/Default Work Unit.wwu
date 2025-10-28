@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<AudioDevice Name="System" ID="{F032D228-06CB-4875-89A5-876AEEE3AAA0}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
 				<AudioDevice Name="No_Output" ID="{816708A6-1626-4516-A357-4874A812B29E}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
+				<WorkUnit Name="New Work Unit" ID="{7AB7E370-5A60-4FD8-853B-175674C1169D}" PersistMode="Reference"/>
+				<Folder Name="New Virtual Folder" ID="{C30436C4-8039-4303-B83A-DA4C2D838777}" ShortID="450697064"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioDevices>

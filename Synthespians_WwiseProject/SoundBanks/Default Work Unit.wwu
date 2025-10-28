@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{54ABD31E-4DFB-40C7-95AA-3C0714BB6AF2}" SchemaVersion="123">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{54ABD31E-4DFB-40C7-95AA-3C0714BB6AF2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{54ABD31E-4DFB-40C7-95AA-3C0714BB6AF2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="PlayDialogue" ID="{5B053B91-21F9-4205-9C0E-BE2B13BFB292}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DialougeStart" ID="{CF5DB249-3A67-4E85-B18F-C11A8A81BBCE}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DialougeStop" ID="{D0051BC7-B4A9-4EFC-94D6-538912B4FAA2}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience" ID="{FA471B3D-D72B-4BD0-8E04-6159ED49DDF7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="AmbienceForstreet" ID="{C54CA165-8ACA-424C-84CF-BE1E69ECE0B4}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Telephone" ID="{BD64895C-EF6E-4790-BD8F-2743E0CDAA70}">
+					<ObjectInclusionList>
+						<ObjectRef Name="TelephoneStop" ID="{AD87F2F3-BF9E-40E1-A86F-FE6D4A9CCB43}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TelephoneStart" ID="{8605D8C1-5B3F-434A-A37E-7B229FF01535}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Walking" ID="{6BBD4A50-CBD0-49BB-88B9-7B1D9FA4ADE4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="WalkingStart" ID="{B1AD45AD-5983-4975-97D1-55029E4FBA42}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WalkingStop" ID="{6437CC4A-A01B-4BD5-8047-48B56A5238A3}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Door" ID="{921A1919-FFBD-4A56-839F-0437F0193D00}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DoorClossed" ID="{1B0C0427-11AC-4964-BB9D-CE9BF2150F17}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorOpen" ID="{305BF0E1-9C74-4CFD-9FFC-73A91ADD71FE}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="CameraMovement" ID="{7AA6ED49-7158-42F5-9C4C-251D3E3BC437}">
+					<ObjectInclusionList>
+						<ObjectRef Name="CameraMove" ID="{719FECF9-33E0-40CA-B674-F601B5352D51}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Lights" ID="{E12C1E0A-14FA-42AA-A944-1E04D1FACD03}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Lights" ID="{500BFC1F-8BCB-4558-B189-2905A8E31CCD}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

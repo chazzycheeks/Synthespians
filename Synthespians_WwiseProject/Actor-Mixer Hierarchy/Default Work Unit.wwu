@@ -1,6 +1,791 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Dialogue Male" ID="{2925FA27-F537-488A-8480-28A594EA6880}" ShortID="1073651473">
+					<PropertyList>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>17</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-130</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Speach" ID="{C2BAD98C-A513-4CC9-A07D-038D8B3A00C5}" ShortID="587638658">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{66D464A3-6E56-4133-BD75-E64E033399D5}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="32.3398886264996"/>
+										<Property Name="TrimEnd" Type="Real64" Value="34.3865501530756"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="750486195"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{66D464A3-6E56-4133-BD75-E64E033399D5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_01" ID="{D3D9ACD2-7D31-48E7-8732-BE97335BC4D1}" ShortID="642784478">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{68099F13-5A89-4B55-87E7-E694912115FF}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="34.9441879797633"/>
+										<Property Name="TrimEnd" Type="Real64" Value="36.2933800235858"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="424485593"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{68099F13-5A89-4B55-87E7-E694912115FF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_02" ID="{FEF714BC-96B0-4FC2-822A-F88D69A67163}" ShortID="402277470">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{D9FF468D-D93E-4D79-8439-76841C27CC2E}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="37.5801838819248"/>
+										<Property Name="TrimEnd" Type="Real64" Value="38.570816326609"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1035819428"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{D9FF468D-D93E-4D79-8439-76841C27CC2E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_03" ID="{26778B80-58BF-4A95-A5B5-7A8A9BB50D65}" ShortID="1028860676">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{65479AEE-8786-41DE-A46F-E6C289749C40}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="39.9246879941866"/>
+										<Property Name="TrimEnd" Type="Real64" Value="41.2818223055184"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="617261208"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{65479AEE-8786-41DE-A46F-E6C289749C40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_04" ID="{FCF67AB1-123D-429C-9127-658927F56BB9}" ShortID="475524362">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{A89A8155-9BEF-4970-A03D-43FFEA1A0379}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="42.6202090002415"/>
+										<Property Name="TrimEnd" Type="Real64" Value="44.7154026346598"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="871990463"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{A89A8155-9BEF-4970-A03D-43FFEA1A0379}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_05" ID="{A043867C-6CAC-4DB3-92D7-61A2C46EB7B1}" ShortID="441517397">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{EB2381F7-DB1F-4E8C-84CE-B90A22767514}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="46.1342680377544"/>
+										<Property Name="TrimEnd" Type="Real64" Value="47.2513215277103"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="565492887"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{EB2381F7-DB1F-4E8C-84CE-B90A22767514}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_06" ID="{D3FC6F6A-23D7-4DF7-B599-0E8C9940F823}" ShortID="628822177">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{9FB0C80A-E592-467C-9F57-6B4DBFC43B04}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="48.6342589181526"/>
+										<Property Name="TrimEnd" Type="Real64" Value="49.5417323343026"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="201367948"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{9FB0C80A-E592-467C-9F57-6B4DBFC43B04}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_07" ID="{11F2C280-7594-4CDA-A5C4-7B88386F8FDF}" ShortID="857041243">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{C4DF5DBE-3689-47BD-83FE-1806FE4700A6}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="49.9001075939345"/>
+										<Property Name="TrimEnd" Type="Real64" Value="50.9972360068736"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="388500897"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{C4DF5DBE-3689-47BD-83FE-1806FE4700A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Dialogue Female" ID="{875D515A-B34C-42E1-ADB3-5B160D62B6F0}" ShortID="458435431">
+					<PropertyList>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>240</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Speach" ID="{10B1BE18-5F69-4191-8CD5-0FA3A9846D57}" ShortID="452581401">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{7ED4C152-2CBA-484A-A2F6-FD365068E5C2}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="32.3398886264996"/>
+										<Property Name="TrimEnd" Type="Real64" Value="34.3865501530756"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="750486195"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{7ED4C152-2CBA-484A-A2F6-FD365068E5C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_01" ID="{FC6AA197-137E-4770-A61B-23188A00A480}" ShortID="906643655">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{0D9E5FE7-F29E-4E51-81B7-BE20BD9CA3B4}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="34.9441879797633"/>
+										<Property Name="TrimEnd" Type="Real64" Value="36.2933800235858"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="424485593"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{0D9E5FE7-F29E-4E51-81B7-BE20BD9CA3B4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_02" ID="{5AD01D6C-770C-4DCB-8E4A-C9028EA6AC47}" ShortID="927474228">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{3755EECE-74D3-4FFA-AC88-F28C1E29337A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="37.5801838819248"/>
+										<Property Name="TrimEnd" Type="Real64" Value="38.570816326609"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1035819428"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{3755EECE-74D3-4FFA-AC88-F28C1E29337A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_03" ID="{BBD898BC-A25C-4FAB-972A-A7BE949F301E}" ShortID="757737247">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{C1FA16B9-2F45-4DCD-BFB0-6EE4A1CFA236}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="39.9246879941866"/>
+										<Property Name="TrimEnd" Type="Real64" Value="41.2818223055184"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="617261208"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{C1FA16B9-2F45-4DCD-BFB0-6EE4A1CFA236}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_04" ID="{3B8ACE10-B4E4-4E5C-8614-E66252294316}" ShortID="824162788">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{D704A966-2B31-4D03-A01B-38BC4BDC7953}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="42.6202090002415"/>
+										<Property Name="TrimEnd" Type="Real64" Value="44.7154026346598"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="871990463"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{D704A966-2B31-4D03-A01B-38BC4BDC7953}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_05" ID="{9EF22ED5-CD54-4B04-A6C6-A5C29D307CAA}" ShortID="791890306">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{A4CB6D76-5C33-41C4-AD66-1D59DFDBE0F4}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="46.1342680377544"/>
+										<Property Name="TrimEnd" Type="Real64" Value="47.2513215277103"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="565492887"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{A4CB6D76-5C33-41C4-AD66-1D59DFDBE0F4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_06" ID="{18338DB7-5FB3-402D-9866-279D927FF4B2}" ShortID="357219098">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{279A5914-8C5F-43B5-A5A9-89A85925B64E}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="48.6342589181526"/>
+										<Property Name="TrimEnd" Type="Real64" Value="49.5417323343026"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="201367948"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{279A5914-8C5F-43B5-A5A9-89A85925B64E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Speach_07" ID="{6060E94A-7416-4903-BF6A-848B6F7C5E93}" ShortID="624761334">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Probe Droid" ID="{14CEC069-3247-4DB6-B34D-9D8D6CD53CD4}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="49.9001075939345"/>
+										<Property Name="TrimEnd" Type="Real64" Value="50.9972360068736"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Probe Droid.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="388500897"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Probe Droid" ID="{14CEC069-3247-4DB6-B34D-9D8D6CD53CD4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<WorkUnit Name="Ambience for scene" ID="{EC2CBBEE-0E38-4C32-8254-5A5F35383D6A}" PersistMode="Reference"/>
+				<WorkUnit Name="Player" ID="{F6462381-E2AD-4E17-9374-E6597C547214}" PersistMode="Reference"/>
+				<RandomSequenceContainer Name="Telephone" ID="{4CDBEF2D-EC80-43A5-BA60-ED8F9F73D54F}" ShortID="585412660">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-640</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Phone" ID="{A620FE4E-9F31-4AAE-BF39-1DDCDE3300C1}" ShortID="35351843">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound" ID="{EC29CEF1-E6AA-4EF0-916D-9F020BE7B843}">
+									<Language>SFX</Language>
+									<AudioFile>ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="75947070"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound" ID="{EC29CEF1-E6AA-4EF0-916D-9F020BE7B843}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<WorkUnit Name="Telephone door" ID="{5D2B8A02-23CE-4C60-BA10-173C504C7E4C}" PersistMode="Reference"/>
+				<RandomSequenceContainer Name="Option Hover" ID="{BC366F07-E205-471F-ABEF-72E9344E8C5D}" ShortID="10942712">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>16</Value>
+							</ValueList>
+						</Property>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-600</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ES_Metal Click, Close, Variations 1" ID="{7C2AF776-75EC-4DDB-A6C2-FEF887A4DF7C}" ShortID="678291399">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ES_Metal Click, Close, Variations 02 - Epidemic Sound" ID="{73F40F70-FC39-4679-89CE-C4E607AE6EB7}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.196225815144943"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tuesday\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="860079385"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ES_Metal Click, Close, Variations 02 - Epidemic Sound" ID="{73F40F70-FC39-4679-89CE-C4E607AE6EB7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ES_Metal Click, Close, Variations 2" ID="{4CDA11B9-CED0-4EFF-BA6F-8081C35A228B}" ShortID="227969462">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ES_Metal Click, Close, Variations 02 - Epidemic Sound" ID="{730ACE79-407C-4744-BBBE-91BA477D8D92}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.822579994540297"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.00431100801933"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tuesday\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="474370461"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ES_Metal Click, Close, Variations 02 - Epidemic Sound" ID="{730ACE79-407C-4744-BBBE-91BA477D8D92}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ES_Metal Click, Close, Variations 3" ID="{F85000C7-F602-4A53-930D-14E73B022DEC}" ShortID="925359010">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ES_Metal Click, Close, Variations 02 - Epidemic Sound" ID="{87E84C60-364F-40D5-A13A-ED6ED03458DD}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.64878368949707"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.83051470297611"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tuesday\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="145932348"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ES_Metal Click, Close, Variations 02 - Epidemic Sound" ID="{87E84C60-364F-40D5-A13A-ED6ED03458DD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Option Select" ID="{243BD13C-0B56-49AE-B210-EB70B8FF07D4}" ShortID="19262515">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>120</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ES_Buttons, Beeps - Epidemic Sound-ChSt_01-01" ID="{F8669E9B-6FB4-4B11-ABB2-29DB1E60CE49}" ShortID="111658420">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ES_Buttons, Beeps - Epidemic Sound-ChSt_01-01" ID="{AC96603F-E57E-4969-9B91-D5AF32149844}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0479037588723636"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0798395981206061"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.337093452921504"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Edited\ES_Buttons, Beeps - Epidemic Sound-ChSt_01-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="410069902"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ES_Buttons, Beeps - Epidemic Sound-ChSt_01-01" ID="{AC96603F-E57E-4969-9B91-D5AF32149844}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="CCTV Camera" ID="{711BB516-D969-4809-853D-3A92F0F9EA60}" ShortID="278262259">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FOL3_Sp_01" ID="{A3417EB3-81DB-41CB-84EF-FCEDB30C0682}" ShortID="338803607">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL3_Sp_01" ID="{29F30AB2-A2E1-4338-BA19-CC38B40A8B65}">
+									<Language>SFX</Language>
+									<AudioFile>Edited\FOL3_Sp_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="857663210"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL3_Sp_01" ID="{29F30AB2-A2E1-4338-BA19-CC38B40A8B65}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOL3_Sp_02" ID="{405EF765-5C84-44CC-A221-A5B2526BDAE7}" ShortID="720671234">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL3_Sp_01" ID="{46D0D8D4-FCA8-418B-B515-F9BF2090C2F9}">
+									<Language>SFX</Language>
+									<AudioFile>Edited\FOL3_Sp_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="857663210"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL3_Sp_01" ID="{46D0D8D4-FCA8-418B-B515-F9BF2090C2F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Lights" ID="{8B0A694E-F5B2-4F36-AB51-BAC8221B9082}" ShortID="643773791">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FX_B3_01" ID="{AE94E91C-ED8F-4730-94FF-F41A747CBCC3}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.406407665005691"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Edited\FX.B3_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="261797555"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FX_B3_01" ID="{AE94E91C-ED8F-4730-94FF-F41A747CBCC3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
