@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E12C1E0A-14FA-42AA-A944-1E04D1FACD03}",
     "Language": "SFX",
-    "Hash": "{DFD3C58E-0490-A640-653D-5C1CB96EA1C0}",
+    "Hash": "{B1C4A6D8-163C-516C-B5D4-96F4457433B9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lights",
     "ShortName": "Lights",
     "Path": "Lights.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Edited\\FX.B3_01.wav",
-      "CachePath": "E3/{E375F399-70DE-DD0D-7F3D-A59AFE282B28}.wem"
+      "CachePath": "33/{3398F95D-0771-FF19-D24C-A84D02FAF400}.wem"
      }
     ],
     "Events": [
@@ -40,6 +40,6 @@
     ]
    }
   ],
-  "FileHash": "{E4E95DD4-B233-280A-9314-E31C54E8EF6F}"
+  "FileHash": "{C88D4513-1FE9-D7C1-A69B-41546F2B8680}"
  }
 }

@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	819240495	AmbienceForstreet			\Default Work Unit\AmbienceForstreet	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	647637767	Ambience	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\BE\{BEAE05D5-54F5-9C95-8A33-42D34313E54E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience for scene\Ambience		23040096
+	647637767	Ambience	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\BE\{BEAE05D5-54F5-9C95-8A33-42D34313E54E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience for scene\Ambience		23040096
 
