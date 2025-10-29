@@ -301,6 +301,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound" ID="{6027B20D-1BA1-4E8D-BB45-7A8BCE6ACFA5}" ShortID="209073846">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
@@ -311,6 +318,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound" ID="{34934CF8-B771-4867-9E23-F393BEF3468A}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Edited\ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound.wav</AudioFile>
 									<MediaIDList>
