@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{BD64895C-EF6E-4790-BD8F-2743E0CDAA70}",
     "Language": "SFX",
-    "Hash": "{313780F5-B4A0-0C3B-8FFA-8418A7B7F1A7}",
+    "Hash": "{9D9B782D-C19E-3AF1-C6E3-72EF62BB9EFB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Telephone",
     "ShortName": "Telephone",
     "Path": "Telephone.bnk",
@@ -30,6 +30,7 @@
       "Name": "TelephoneStart",
       "ObjectPath": "\\Events\\Default Work Unit\\TelephoneStart",
       "GUID": "{8605D8C1-5B3F-434A-A37E-7B229FF01535}",
+      "MaxAttenuation": "2925",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -50,6 +51,6 @@
     ]
    }
   ],
-  "FileHash": "{364D1DBB-1098-E42C-9C27-6DC3F3158A5C}"
+  "FileHash": "{26624E66-0BF9-E2E6-CB7E-AB7B2BD8D294}"
  }
 }
