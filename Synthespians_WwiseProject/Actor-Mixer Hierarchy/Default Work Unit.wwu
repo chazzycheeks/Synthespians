@@ -426,18 +426,18 @@
 					<PropertyList>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>16</Value>
+								<Value>22</Value>
 							</ValueList>
 						</Property>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
-								<Value>-600</Value>
+								<Value>-150</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-14</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -550,6 +550,18 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="ES_Buttons, Beeps - Epidemic Sound-ChSt_01-01" ID="{F8669E9B-6FB4-4B11-ABB2-29DB1E60CE49}" ShortID="111658420">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>21</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>390</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
@@ -561,8 +573,8 @@
 							<ChildrenList>
 								<AudioFileSource Name="ES_Buttons, Beeps - Epidemic Sound-ChSt_01-01" ID="{AC96603F-E57E-4969-9B91-D5AF32149844}">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.0479037588723636"/>
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.0798395981206061"/>
+										<Property Name="LoopEnd" Type="Real64" Value="0.151753279768092"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimEnd" Type="Real64" Value="0.337093452921504"/>
 									</PropertyList>

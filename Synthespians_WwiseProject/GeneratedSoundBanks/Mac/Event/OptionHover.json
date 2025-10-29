@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E3F8506D-E33D-4A57-A759-99F20CC93DF9}",
     "Language": "SFX",
-    "Hash": "{A7AFF02B-998F-2B46-F4B3-543B4E8DA1B5}",
+    "Hash": "{80A8E176-4FEB-379D-E4E0-ED9F3D07C626}",
     "ObjectPath": "OptionHover",
     "ShortName": "OptionHover",
     "Path": "Event/OptionHover.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\OptionHover",
       "GUID": "{E3F8506D-E33D-4A57-A759-99F20CC93DF9}",
       "DurationType": "OneShot",
-      "DurationMin": "0.25700647",
-      "DurationMax": "0.27750522",
+      "DurationMin": "0.19817908",
+      "DurationMax": "0.21398579",
       "MediaRefs": [
        {
         "Id": "145932348"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{C9E8C7D8-C9D5-858B-B00B-DD009ACAE349}"
+  "FileHash": "{7ED95B05-5BC2-6052-D563-DF10AFDC2444}"
  }
 }
