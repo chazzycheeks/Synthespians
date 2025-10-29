@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="PlayDialogue" ID="{5B053B91-21F9-4205-9C0E-BE2B13BFB292}">
 					<ObjectInclusionList>
+						<ObjectRef Name="StreetPeople" ID="{2F0D269A-4474-47B3-95CD-C9A281291465}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DialougeStart" ID="{CF5DB249-3A67-4E85-B18F-C11A8A81BBCE}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DialougeStop" ID="{D0051BC7-B4A9-4EFC-94D6-538912B4FAA2}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

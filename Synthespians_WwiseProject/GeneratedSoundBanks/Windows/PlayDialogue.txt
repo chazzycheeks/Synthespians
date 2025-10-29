@@ -1,14 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
 	93220501	DialougeStart			\Default Work Unit\DialougeStart	
+	116974097	StreetPeople			\Default Work Unit\StreetPeople	
 	1657599607	DialougeStop			\Default Work Unit\DialougeStop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	201367948	Speach_06	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\58\{5845FCD1-5CA0-6275-E06F-88B223703CD9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_06		174328
-	388500897	Speach_07	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\9F\{9FFD0BE5-3A11-01F3-6830-A37CB0D089CF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_07		210744
-	424485593	Speach_01	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\B7\{B7E95B0B-B67F-8AC5-49BB-5917C2954BD1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_01		259140
-	565492887	Speach_05	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\10\{109FD453-1EF8-04A7-354F-3378D44A7FA5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_05		214568
-	617261208	Speach_03	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\CD\{CD352E4A-263D-DA4D-78FD-7094A1571D46}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_03		260664
-	750486195	Speach	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\60\{60F08622-C4E1-CD7C-2904-7624D57B393F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach		393052
-	871990463	Speach_04	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\89\{89EB439E-29F4-FC4A-BBAC-0BDA0FE23D83}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_04		402372
-	1035819428	Speach_02	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\11\{11639076-CFB5-6877-4DF5-9EEB91084A6F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_02		190296
+	111266544	8-bit talking sound effects!(desc)_01	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\75\{75E6241B-966F-E67E-33AE-445B6238ACE6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\StreetDialogue\8-bit talking sound effects!(desc)_01		251848
+	201367948	Speach_06	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\58\{5845FCD1-5CA0-6275-E06F-88B223703CD9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_06		174328
+	388500897	Speach_07	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\9F\{9FFD0BE5-3A11-01F3-6830-A37CB0D089CF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_07		210744
+	424485593	Speach_01	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\B7\{B7E95B0B-B67F-8AC5-49BB-5917C2954BD1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_01		259140
+	554763097	8-bit talking sound effects!(desc)	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\F7\{F7E4CF11-1793-0595-FBC1-6E60F415ADC4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\StreetDialogue\8-bit talking sound effects!(desc)		293664
+	565492887	Speach_05	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\10\{109FD453-1EF8-04A7-354F-3378D44A7FA5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_05		214568
+	617261208	Speach_03	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\CD\{CD352E4A-263D-DA4D-78FD-7094A1571D46}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_03		260664
+	750486195	Speach	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\60\{60F08622-C4E1-CD7C-2904-7624D57B393F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach		393052
+	871990463	Speach_04	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\89\{89EB439E-29F4-FC4A-BBAC-0BDA0FE23D83}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_04		402372
+	1035819428	Speach_02	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\11\{11639076-CFB5-6877-4DF5-9EEB91084A6F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue Male\Speach_02		190296
 

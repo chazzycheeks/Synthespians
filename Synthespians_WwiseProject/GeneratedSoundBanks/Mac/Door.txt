@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1464624782	DoorClossed			\Default Work Unit\DoorClossed	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	213780744	Door Open	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\33\{33105206-9108-402E-5266-C4AF618552B3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Telephone door\Door Open		275160
-	880565442	Door Close	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\E6\{E6F75E47-8C7A-E1D5-D830-CF6C96AD13A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Telephone door\Door Close		194504
+	213780744	Door Open	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\33\{33105206-9108-402E-5266-C4AF618552B3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Telephone door\Door Open		275160
+	880565442	Door Close	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\E6\{E6F75E47-8C7A-E1D5-D830-CF6C96AD13A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Telephone door\Door Close		194504
 

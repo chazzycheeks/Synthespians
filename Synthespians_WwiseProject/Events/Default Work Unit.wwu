@@ -155,6 +155,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StreetPeople" ID="{2F0D269A-4474-47B3-95CD-C9A281291465}">
+					<ChildrenList>
+						<Action Name="" ID="{1D488A29-D2AD-4A1B-A866-000DB75991F8}" ShortID="657489122">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StreetDialogue" ID="{76A02948-87CC-4675-BF29-278B3A3B0779}" WorkUnitID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
