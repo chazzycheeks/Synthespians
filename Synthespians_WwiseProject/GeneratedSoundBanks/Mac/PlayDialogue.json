@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5B053B91-21F9-4205-9C0E-BE2B13BFB292}",
     "Language": "SFX",
-    "Hash": "{83E64A37-03A9-F984-02E6-3084B19306F6}",
+    "Hash": "{AE32C19A-3A58-D216-B2C3-04071CB27299}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayDialogue",
     "ShortName": "PlayDialogue",
     "Path": "PlayDialogue.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Wednesday\\8-bit talking sound effects!(desc).wav",
-      "CachePath": "75/{75E6241B-966F-E67E-33AE-445B6238ACE6}.wem"
+      "CachePath": "0A/{0AE8A2C9-1AB5-8AA5-57E1-F95609DB0246}.wem"
      },
      {
       "Id": "201367948",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Wednesday\\8-bit talking sound effects!(desc).wav",
-      "CachePath": "F7/{F7E4CF11-1793-0595-FBC1-6E60F415ADC4}.wem"
+      "CachePath": "55/{553EE30B-3285-806C-4397-6CC532F68D73}.wem"
      },
      {
       "Id": "565492887",
@@ -162,6 +162,6 @@
     ]
    }
   ],
-  "FileHash": "{7A4A498F-FB1D-FF4B-6A3C-1DDB0BF8BBBD}"
+  "FileHash": "{60311635-FF1D-8CDC-BDF9-8922CF5AB849}"
  }
 }

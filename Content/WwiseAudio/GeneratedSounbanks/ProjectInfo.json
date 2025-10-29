@@ -12,14 +12,14 @@
     "GUID": "{BC06043E-46CA-4C98-A80B-29E3E8EE6128}",
     "BasePlatform": "Mac",
     "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
-    "Path": "Mac"
+    "Path": "../../../Synthespians_WwiseProject/GeneratedSoundBanks/Mac"
    },
    {
     "Name": "Windows",
     "GUID": "{9201963B-49D2-4226-8985-997601FD8603}",
     "BasePlatform": "Windows",
     "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
-    "Path": "Windows"
+    "Path": "../../../Synthespians_WwiseProject/GeneratedSoundBanks/Windows"
    }
   ],
   "Languages": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{5B2C53CD-2ACB-7809-9619-6A474F3CCB55}"
+  "FileHash": "{D877AE67-3DF4-F959-0FE7-B67B757207A5}"
  }
 }
