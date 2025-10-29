@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{5B053B91-21F9-4205-9C0E-BE2B13BFB292}",
     "Language": "SFX",
-    "Hash": "{529C70BF-FF15-3AA0-0B57-B56826CF4E4F}",
+    "Hash": "{83E64A37-03A9-F984-02E6-3084B19306F6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayDialogue",
     "ShortName": "PlayDialogue",
     "Path": "PlayDialogue.bnk",
     "Media": [
+     {
+      "Id": "111266544",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wednesday\\8-bit talking sound effects!(desc).wav",
+      "CachePath": "75/{75E6241B-966F-E67E-33AE-445B6238ACE6}.wem"
+     },
      {
       "Id": "201367948",
       "Language": "SFX",
@@ -38,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "Probe Droid.wav",
       "CachePath": "B7/{B7E95B0B-B67F-8AC5-49BB-5917C2954BD1}.wem"
+     },
+     {
+      "Id": "554763097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wednesday\\8-bit talking sound effects!(desc).wav",
+      "CachePath": "F7/{F7E4CF11-1793-0595-FBC1-6E60F415ADC4}.wem"
      },
      {
       "Id": "565492887",
@@ -125,10 +141,27 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "116974097",
+      "Name": "StreetPeople",
+      "ObjectPath": "\\Events\\Default Work Unit\\StreetPeople",
+      "GUID": "{2F0D269A-4474-47B3-95CD-C9A281291465}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6019372",
+      "DurationMax": "1.86801",
+      "MediaRefs": [
+       {
+        "Id": "111266544"
+       },
+       {
+        "Id": "554763097"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{40D55C44-285E-97F3-7066-02F4CAFD6B62}"
+  "FileHash": "{ADF83C69-08A1-0FFE-6343-E6DD1E99B460}"
  }
 }

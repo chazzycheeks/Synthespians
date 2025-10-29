@@ -10,18 +10,18 @@
     "Type": "User",
     "GUID": "{BD64895C-EF6E-4790-BD8F-2743E0CDAA70}",
     "Language": "SFX",
-    "Hash": "{1EA2C96D-CF4D-242C-63F5-D9B04BCBBE78}",
+    "Hash": "{313780F5-B4A0-0C3B-8FFA-8418A7B7F1A7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Telephone",
     "ShortName": "Telephone",
     "Path": "Telephone.bnk",
     "Media": [
      {
-      "Id": "75947070",
+      "Id": "558198679",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound.wav",
-      "CachePath": "5D/{5D9529CF-4A71-51D1-B955-01D0968BD063}.wem"
+      "ShortName": "Edited\\ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound.wav",
+      "CachePath": "1E/{1EEFA14A-D5BB-BC0B-1F7B-6B2ADF13BEC1}.wem"
      }
     ],
     "Events": [
@@ -33,7 +33,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "75947070"
+        "Id": "558198679"
        }
       ]
      },
@@ -50,6 +50,6 @@
     ]
    }
   ],
-  "FileHash": "{D99FD427-7D0E-C0F2-C6E1-023640D73213}"
+  "FileHash": "{BCE6886B-0DD4-FC28-4330-B55383AAF230}"
  }
 }
