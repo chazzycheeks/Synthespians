@@ -3,5 +3,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	1284012751	TelephoneStop			\Default Work Unit\TelephoneStop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	558198679	ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\1E\{1EEFA14A-D5BB-BC0B-1F7B-6B2ADF13BEC1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Telephone\ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound		1251752
+	154736463	Digital Telephone Ring í ½í³ž _ Phone Ring Sound _ Ringtone SFX  ringtone	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\44\{44CE52A9-5F0E-9782-B574-2512758BD787}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Telephone\Digital Telephone Ring í ½í³ž _ Phone Ring Sound _ Ringtone SFX  ringtone		893024
 
