@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	946378050	WalkingStart			\Default Work Unit\WalkingStart	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	553498931	ES_Asphalt, Male, Walk footstep 2	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\C2\{C24BA27D-3B52-A450-AF5E-8D78726CA5C2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player walkingrandom\ES_Asphalt, Male, Walk footstep 2		30918
-	678717661	ES_Asphalt, Male, Walk - footstep 1	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\65\{65CDC0BD-1C1B-113F-9B13-561856C2298E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player walkingrandom\ES_Asphalt, Male, Walk - footstep 1		41988
+	553498931	ES_Asphalt, Male, Walk footstep 2	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\C2\{C24BA27D-3B52-A450-AF5E-8D78726CA5C2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player walkingrandom\ES_Asphalt, Male, Walk footstep 2		30918
+	678717661	ES_Asphalt, Male, Walk - footstep 1	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\65\{65CDC0BD-1C1B-113F-9B13-561856C2298E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player walkingrandom\ES_Asphalt, Male, Walk - footstep 1		41988
 

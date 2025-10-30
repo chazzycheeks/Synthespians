@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	877846287	CameraMove			\Default Work Unit\CameraMove	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	857663210	FOL3_Sp_02	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\F5\{F5B3100B-8ACC-54FD-58B3-9D7BE4B8C57C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CCTV Camera\FOL3_Sp_02		200096
+	857663210	FOL3_Sp_02	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\F5\{F5B3100B-8ACC-54FD-58B3-9D7BE4B8C57C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CCTV Camera\FOL3_Sp_02		200096
 

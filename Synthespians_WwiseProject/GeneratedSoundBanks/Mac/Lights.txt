@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3192784746	Lights			\Default Work Unit\Lights	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	261797555	Lights	Y:\Documents\GitHub\Synthespians\Synthespians_WwiseProject\.cache\E3\{E375F399-70DE-DD0D-7F3D-A59AFE282B28}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lights		2672632
+	261797555	Lights	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\33\{3398F95D-0771-FF19-D24C-A84D02FAF400}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lights		2672632
 

@@ -621,10 +621,54 @@
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand3" Type="Real32" Value="20000"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="864"/>
 										<Property Name="OnOffBand1" Type="bool" Value="False"/>
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{A6622CD7-7AFD-4B11-81B7-267AB1582642}" ShortID="365313461">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="OnOffBand3"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="LowPass" ID="{6CBF95EC-BFFF-4E85-A141-D3912DB7FB06}" WorkUnitID="{3247E66F-9336-49B3-A71F-4D0D680F7742}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{90749537-14AE-4AF1-9D8C-14036AA4C21B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50.21204</XPos>
+																				<YPos>1</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</Effect>
 							</ChildrenList>
 						</Folder>

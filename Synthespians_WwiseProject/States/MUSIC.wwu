@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{310386B1-B27D-41EF-A62E-1506DC92326E}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="MUSIC" ID="{310386B1-B27D-41EF-A62E-1506DC92326E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Game_state" ID="{F89DEF3C-55DD-4520-B773-849958231435}">
+					<ChildrenList>
+						<State Name="None" ID="{17994B09-8B7F-4E8F-9FC8-733EDE11C4F4}"/>
+						<State Name="Day1" ID="{F6C86D1D-B198-4EB9-9B7B-0B9D5A800BA5}"/>
+						<State Name="Day2" ID="{3D544958-923F-4CCA-A0B3-077F7B627D79}"/>
+						<State Name="Day3" ID="{D03810EF-7F68-4BFC-BE45-A41AFE58B8C9}"/>
+						<State Name="Phone" ID="{FB201192-ADBC-4E25-BAB5-A084CD704875}"/>
+						<State Name="Phone_final" ID="{295594AD-4A97-417B-A8CF-9CAB6B662FBE}"/>
+						<State Name="Menu" ID="{958C9F6A-0996-43FB-8EE4-1D87AA3F5CC5}"/>
+						<State Name="End" ID="{66E6120D-BF51-4F82-8E5B-87961435CC4C}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

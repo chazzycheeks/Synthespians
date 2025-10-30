@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_MUSIC			\MUSIC\Play_MUSIC	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	766723505	Game_state			\MUSIC\Game_state	
+
+State	ID	Name	State Group			Notes
+	529726532	End	Game_state			
+	748895195	None	Game_state			
+	1031415606	Phone_final	Game_state			
+	2043358088	Day3	Game_state			
+	2043358089	Day2	Game_state			
+	2043358090	Day1	Game_state			
+	2607556080	Menu	Game_state			
+	3104856687	Phone	Game_state			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	203518251	MX_STING_FINAL	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\5E\{5EB40492-7A11-F98F-D294-4282FDE2E55B}.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MX_STING_FINAL\MX_STING_FINAL\MX_STING_FINAL		3584160
+	348249295	MX_TRANS_TO_PHONEzzFullMix	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\33\{33E07CA5-471C-3524-AB7E-A4643C1F43E4}.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MX_TRANS_TO_PHONE\MX_TRANS_TO_PHONE\MX_TRANS_TO_PHONEzzFullMix		3072208
+	411993606	MX_DAY3_zzFullMix	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\AD\{AD896692-E4A2-652B-F4F8-782E0126CF50}.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MX_DAY3\MX_DAY3\MX_DAY3_zzFullMix		18432208
+	577373939	MX_DAY1_zzFullMix	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\43\{439F1C5B-4634-17F5-B9A8-70226F335F83}.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MX_DAY1\MX_DAY1\MX_DAY1_zzFullMix		18432208
+	690226475	MX_DAY2_zzFullMix	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\A0\{A03F6ABE-7228-2066-34AC-D2D8E5155460}.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MX_DAY2\MX_DAY2\MX_DAY2_zzFullMix		18432208
+	696858604	MX_MENU	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\56\{566083CE-764E-01F8-31F1-6D5855763635}.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MX_MENU\MX_MENU\MX_MENU		23313912
+	848796813	MX_PHONE_FINAL	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\27\{271DFBAA-0FAD-36B6-E635-807418BC274E}.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MX_PHONE_FINAL\MX_PHONE_FINAL\MX_PHONE_FINAL		27508232
+	922982415	MX_TRANS_TO_DAY_zzFullMix	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\D1\{D156414E-4294-B9E8-97A9-65807BD0B6BA}.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MX_TRANS_TO_DAY\MX_TRANS_TO_DAY\MX_TRANS_TO_DAY_zzFullMix		3584176
+	1060185375	MX_PHONE_zzFullMix	Y:\Documents\GitHub\GitHub\Synthespians\Synthespians_WwiseProject\.cache\1A\{1A53C01A-450A-8CB0-59F4-E5E9F84E4155}.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MX_PHONE\MX_PHONE\MX_PHONE_zzFullMix		10240208
+

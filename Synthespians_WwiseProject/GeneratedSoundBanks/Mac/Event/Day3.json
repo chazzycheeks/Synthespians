@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2043358088",
+    "Type": "Event",
+    "GUID": "{D9F19CE6-2F64-420C-B6CD-B3F4FA0723DE}",
+    "Language": "SFX",
+    "Hash": "{A38B6BAE-3666-F51F-BBD5-4086B26C090C}",
+    "ObjectPath": "Day3",
+    "ShortName": "Day3",
+    "Path": "Event/Day3.bnk",
+    "Media": [
+     {
+      "Id": "411993606",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_DAY3\\MX_DAY3_zzFullMix.wav",
+      "Path": "Media/411993606.wem",
+      "CachePath": "AD/{AD896692-E4A2-652B-F4F8-782E0126CF50}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2043358088",
+      "Name": "Day3",
+      "ObjectPath": "\\Events\\MUSIC\\Day3",
+      "GUID": "{D9F19CE6-2F64-420C-B6CD-B3F4FA0723DE}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "411993606"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{85788C55-BEAA-D681-B696-E15E562859EF}"
+ }
+}

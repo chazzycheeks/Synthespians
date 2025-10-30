@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "529726532",
+    "Type": "Event",
+    "GUID": "{391B7641-D5F9-4949-8937-E76B55A80E71}",
+    "Language": "SFX",
+    "Hash": "{D10A1F83-4BD5-7161-F291-C9C2329794C3}",
+    "ObjectPath": "End",
+    "ShortName": "End",
+    "Path": "Event/End.bnk",
+    "Media": [
+     {
+      "Id": "203518251",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_STING_FINAL\\MX_STING_FINAL.wav",
+      "Path": "Media/203518251.wem",
+      "CachePath": "5E/{5EB40492-7A11-F98F-D294-4282FDE2E55B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "529726532",
+      "Name": "End",
+      "ObjectPath": "\\Events\\MUSIC\\End",
+      "GUID": "{391B7641-D5F9-4949-8937-E76B55A80E71}",
+      "DurationType": "OneShot",
+      "DurationMin": "18.666666",
+      "DurationMax": "18.666666",
+      "MediaRefs": [
+       {
+        "Id": "203518251"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F1EBE408-A542-1856-9271-C7FCF145CA85}"
+ }
+}
