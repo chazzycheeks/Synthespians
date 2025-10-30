@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2031596562",
+    "Type": "Event",
+    "GUID": "{E7C0A05E-6443-47E6-B2DE-590A92D6F8FE}",
+    "Language": "SFX",
+    "Hash": "{9B24C2B5-668A-C958-C1CF-31E947A882E7}",
+    "ObjectPath": "Lightbulb",
+    "ShortName": "Lightbulb",
+    "Path": "Event/Lightbulb.bnk",
+    "Media": [
+     {
+      "Id": "891888299",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_STING_LIGHTBULB\\MX_STING_LIGHTBULBzzFullMix.wav",
+      "Path": "Media/891888299.wem",
+      "CachePath": "FD/{FD12FA6A-430C-E99A-F189-81226074ECDE}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2031596562",
+      "Name": "Lightbulb",
+      "ObjectPath": "\\Events\\MUSIC\\Lightbulb",
+      "GUID": "{E7C0A05E-6443-47E6-B2DE-590A92D6F8FE}",
+      "DurationType": "OneShot",
+      "DurationMin": "18.666666",
+      "DurationMax": "18.666666",
+      "MediaRefs": [
+       {
+        "Id": "891888299"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BD48464E-D015-57A6-A8BF-33EB8173BBB2}"
+ }
+}

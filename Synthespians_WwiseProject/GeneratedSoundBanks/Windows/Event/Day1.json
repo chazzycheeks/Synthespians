@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2043358090",
+    "Type": "Event",
+    "GUID": "{424D221E-9E74-4DA7-AC6F-2ACCF2021A00}",
+    "Language": "SFX",
+    "Hash": "{4F561343-5DB4-994D-83FD-070EE17E0D76}",
+    "ObjectPath": "Day1",
+    "ShortName": "Day1",
+    "Path": "Event/Day1.bnk",
+    "Media": [
+     {
+      "Id": "577373939",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_DAY1\\MX_DAY1_zzFullMix.wav",
+      "Path": "Media/577373939.wem",
+      "CachePath": "43/{439F1C5B-4634-17F5-B9A8-70226F335F83}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2043358090",
+      "Name": "Day1",
+      "ObjectPath": "\\Events\\MUSIC\\Day1",
+      "GUID": "{424D221E-9E74-4DA7-AC6F-2ACCF2021A00}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "577373939"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{47205770-FAEB-16F4-B7AA-359B2BFB10F1}"
+ }
+}

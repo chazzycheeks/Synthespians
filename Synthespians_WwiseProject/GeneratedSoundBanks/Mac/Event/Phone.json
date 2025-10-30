@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3104856687",
+    "Type": "Event",
+    "GUID": "{D5C1B38D-D14C-4AB3-9557-B66E2B54437C}",
+    "Language": "SFX",
+    "Hash": "{7CB19143-83E5-74A3-B527-8E91FF2D21BF}",
+    "ObjectPath": "Phone",
+    "ShortName": "Phone",
+    "Path": "Event/Phone.bnk",
+    "Media": [
+     {
+      "Id": "1060185375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_PHONE\\MX_PHONE_zzFullMix.wav",
+      "Path": "Media/1060185375.wem",
+      "CachePath": "1A/{1A53C01A-450A-8CB0-59F4-E5E9F84E4155}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3104856687",
+      "Name": "Phone",
+      "ObjectPath": "\\Events\\MUSIC\\Phone",
+      "GUID": "{D5C1B38D-D14C-4AB3-9557-B66E2B54437C}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1060185375"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{41C1B35E-34D7-F627-B82F-958B8F2054A3}"
+ }
+}

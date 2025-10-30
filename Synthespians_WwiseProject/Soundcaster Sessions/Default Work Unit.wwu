@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{91B78461-C428-45CF-8F52-52E0AD9E4342}" SchemaVersion="123">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{91B78461-C428-45CF-8F52-52E0AD9E4342}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{91B78461-C428-45CF-8F52-52E0AD9E4342}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music" ID="{52114DF6-B0B5-4321-9130-CD548069D18C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_MUSIC" ID="{62D839DA-57D3-4D60-83D8-628411B3BBFB}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="End" ID="{391B7641-D5F9-4949-8937-E76B55A80E71}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Menu" ID="{EFD9D6BA-A2FB-4BE4-9A37-E9F86430AA63}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Day1" ID="{424D221E-9E74-4DA7-AC6F-2ACCF2021A00}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Phone" ID="{D5C1B38D-D14C-4AB3-9557-B66E2B54437C}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lightbulb" ID="{E7C0A05E-6443-47E6-B2DE-590A92D6F8FE}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Day2" ID="{B653EF16-C8E2-4C07-AD6A-B8AA726D9734}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Phone_Final" ID="{12315900-2E2B-40B1-8A81-584C6B664E20}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LowPass_on" ID="{14FDFB51-14DD-4EBB-95B9-4DFB079D9842}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Day3" ID="{D9F19CE6-2F64-420C-B6CD-B3F4FA0723DE}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LowPass_off" ID="{09B613AC-35E1-4ADC-8549-F8CFD0467697}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
