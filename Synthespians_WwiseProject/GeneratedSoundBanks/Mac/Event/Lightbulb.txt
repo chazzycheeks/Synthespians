@@ -14,3 +14,9 @@ State	ID	Name	State Group			Notes
 	2607556080	Menu	Game_state			
 	3104856687	Phone	Game_state			
 
+Trigger	ID	Name			Wwise Object Path	Notes
+	2031596562	Lightbulb			\Music\Lightbulb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+

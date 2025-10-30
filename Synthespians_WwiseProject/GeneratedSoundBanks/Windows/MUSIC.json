@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9708B48B-2694-48E4-9AF4-DEFBD5544B03}",
     "Language": "SFX",
-    "Hash": "{7EE92FB6-63B6-3CF8-0512-3F2E67F3485D}",
+    "Hash": "{675D4676-CF3A-03A2-FD92-3D1603B7D66A}",
     "ObjectPath": "\\SoundBanks\\Music\\MUSIC",
     "ShortName": "MUSIC",
     "Path": "MUSIC.bnk",
@@ -30,14 +30,6 @@
       "Location": "Memory",
       "ShortName": "MX_TRANS_TO_PHONE\\MX_TRANS_TO_PHONEzzFullMix.wav",
       "CachePath": "33/{33E07CA5-471C-3524-AB7E-A4643C1F43E4}.wem"
-     },
-     {
-      "Id": "411993606",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "MX_DAY3\\MX_DAY3_zzFullMix.wav",
-      "CachePath": "AD/{AD896692-E4A2-652B-F4F8-782E0126CF50}.wem"
      },
      {
       "Id": "577373939",
@@ -64,12 +56,28 @@
       "CachePath": "56/{566083CE-764E-01F8-31F1-6D5855763635}.wem"
      },
      {
+      "Id": "792408861",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MX_DAY3\\MX_DAY3.wav",
+      "CachePath": "9C/{9C28A87D-2AC0-1CD0-25BD-553D4D27A135}.wem"
+     },
+     {
       "Id": "848796813",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "MX_PHONE_FINAL\\MX_PHONE_FINAL.wav",
       "CachePath": "27/{271DFBAA-0FAD-36B6-E635-807418BC274E}.wem"
+     },
+     {
+      "Id": "891888299",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MX_STING_LIGHTBULB\\MX_STING_LIGHTBULBzzFullMix.wav",
+      "CachePath": "FD/{FD12FA6A-430C-E99A-F189-81226074ECDE}.wem"
      },
      {
       "Id": "922982415",
@@ -88,6 +96,18 @@
       "CachePath": "1A/{1A53C01A-450A-8CB0-59F4-E5E9F84E4155}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1008402193",
+       "Name": "Low_Pass_20KHz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Low Pass Filters\\Low_Pass_20KHz",
+       "GUID": "{830124FB-B9D5-4AE8-846E-E94A74652666}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "2932040671",
@@ -98,6 +118,9 @@
       "MediaRefs": [
        {
         "Id": "348249295"
+       },
+       {
+        "Id": "891888299"
        },
        {
         "Id": "922982415"
@@ -115,7 +138,14 @@
          {
           "Id": "577373939"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1008402193"
+          }
+         ]
+        }
        },
        {
         "SwitchValue": {
@@ -128,7 +158,14 @@
          {
           "Id": "690226475"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1008402193"
+          }
+         ]
+        }
        },
        {
         "SwitchValue": {
@@ -139,9 +176,16 @@
         },
         "MediaRefs": [
          {
-          "Id": "411993606"
+          "Id": "792408861"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1008402193"
+          }
+         ]
+        }
        },
        {
         "SwitchValue": {
@@ -154,7 +198,14 @@
          {
           "Id": "696858604"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1008402193"
+          }
+         ]
+        }
        },
        {
         "SwitchValue": {
@@ -167,7 +218,14 @@
          {
           "Id": "1060185375"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1008402193"
+          }
+         ]
+        }
        },
        {
         "SwitchValue": {
@@ -180,7 +238,14 @@
          {
           "Id": "848796813"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1008402193"
+          }
+         ]
+        }
        },
        {
         "SwitchValue": {
@@ -193,7 +258,14 @@
          {
           "Id": "203518251"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1008402193"
+          }
+         ]
+        }
        }
       ]
      }
@@ -255,9 +327,17 @@
        }
       ]
      }
+    ],
+    "Triggers": [
+     {
+      "Id": "2031596562",
+      "Name": "Lightbulb",
+      "ObjectPath": "\\Triggers\\Music\\Lightbulb",
+      "GUID": "{81B271F5-95A0-421D-B40B-99460F92B8ED}"
+     }
     ]
    }
   ],
-  "FileHash": "{64874640-E721-34EB-19A8-EDF6780A206F}"
+  "FileHash": "{EF7E44AA-695B-C7AD-33F5-9847D3093593}"
  }
 }

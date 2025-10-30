@@ -23,6 +23,8 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="TelephoneStop" ID="{AD87F2F3-BF9E-40E1-A86F-FE6D4A9CCB43}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TelephoneStart" ID="{8605D8C1-5B3F-434A-A37E-7B229FF01535}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PhonePickup" ID="{3865756A-0235-480A-B5FF-A2A35C66D9E6}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Phoneputdown" ID="{819C0B74-BE56-4BCD-960D-E5C0318B6893}" WorkUnitID="{989725B0-3562-4B4E-9E81-26298D8B77D8}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

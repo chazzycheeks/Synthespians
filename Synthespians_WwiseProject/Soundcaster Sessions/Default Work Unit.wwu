@@ -38,16 +38,8 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="LowPass_on" ID="{14FDFB51-14DD-4EBB-95B9-4DFB079D9842}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
-							<Position X="2" Y="2"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Day3" ID="{D9F19CE6-2F64-420C-B6CD-B3F4FA0723DE}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
 							<Position X="3" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="LowPass_off" ID="{09B613AC-35E1-4ADC-8549-F8CFD0467697}" WorkUnitID="{4FFF1330-9FCE-4543-A6DF-C98A2DB03B5C}"/>
-							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

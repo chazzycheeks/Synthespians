@@ -43,9 +43,14 @@
 					<ChildrenList>
 						<Sound Name="ES_Asphalt, Male, Walk - footstep 1" ID="{9A5ED5D4-A71F-4842-8FF3-2B68E87AE6DC}" ShortID="471502296">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>50</Value>
+										<Value>300</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

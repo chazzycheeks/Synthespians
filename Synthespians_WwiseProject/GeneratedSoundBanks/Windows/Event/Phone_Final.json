@@ -10,37 +10,91 @@
     "Type": "Event",
     "GUID": "{12315900-2E2B-40B1-8A81-584C6B664E20}",
     "Language": "SFX",
-    "Hash": "{26807E98-D4E5-2FD4-0FFD-FBA8441123C8}",
+    "Hash": "{309B838C-AEF4-3AF0-D80B-37828E05600A}",
     "ObjectPath": "Phone_Final",
     "ShortName": "Phone_Final",
     "Path": "Event/Phone_Final.bnk",
-    "Media": [
-     {
-      "Id": "848796813",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "MX_PHONE_FINAL\\MX_PHONE_FINAL.wav",
-      "Path": "Media/848796813.wem",
-      "CachePath": "27/{271DFBAA-0FAD-36B6-E635-807418BC274E}.wem"
-     }
-    ],
     "Events": [
      {
       "Id": "1031415606",
       "Name": "Phone_Final",
       "ObjectPath": "\\Events\\MUSIC\\Phone_Final",
       "GUID": "{12315900-2E2B-40B1-8A81-584C6B664E20}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
        {
-        "Id": "848796813"
+        "GroupId": "766723505",
+        "Id": "1031415606",
+        "Name": "Phone_final",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Phone_final",
+        "GUID": "{295594AD-4A97-417B-A8CF-9CAB6B662FBE}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "766723505",
+      "Name": "Game_state",
+      "ObjectPath": "\\States\\MUSIC\\Game_state",
+      "GUID": "{F89DEF3C-55DD-4520-B773-849958231435}",
+      "States": [
+       {
+        "Id": "529726532",
+        "Name": "End",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\End",
+        "GUID": "{66E6120D-BF51-4F82-8E5B-87961435CC4C}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\None",
+        "GUID": "{17994B09-8B7F-4E8F-9FC8-733EDE11C4F4}"
+       },
+       {
+        "Id": "1031415606",
+        "Name": "Phone_final",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Phone_final",
+        "GUID": "{295594AD-4A97-417B-A8CF-9CAB6B662FBE}"
+       },
+       {
+        "Id": "2043358088",
+        "Name": "Day3",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Day3",
+        "GUID": "{D03810EF-7F68-4BFC-BE45-A41AFE58B8C9}"
+       },
+       {
+        "Id": "2043358089",
+        "Name": "Day2",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Day2",
+        "GUID": "{3D544958-923F-4CCA-A0B3-077F7B627D79}"
+       },
+       {
+        "Id": "2043358090",
+        "Name": "Day1",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Day1",
+        "GUID": "{F6C86D1D-B198-4EB9-9B7B-0B9D5A800BA5}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Menu",
+        "GUID": "{958C9F6A-0996-43FB-8EE4-1D87AA3F5CC5}"
+       },
+       {
+        "Id": "3104856687",
+        "Name": "Phone",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Phone",
+        "GUID": "{FB201192-ADBC-4E25-BAB5-A084CD704875}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{93791997-B716-0989-D8F7-1A9C0D584974}"
+  "FileHash": "{C124031F-7D58-AC8C-995D-A33E352E770D}"
  }
 }

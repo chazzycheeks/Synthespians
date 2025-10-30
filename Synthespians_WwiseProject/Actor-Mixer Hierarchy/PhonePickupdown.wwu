@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{72DBFE37-B1BA-424C-A69D-EE1DB56F341B}" SchemaVersion="123" RootDocumentID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}" ParentDocumentID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}">
+	<AudioObjects>
+		<WorkUnit Name="PhonePickupdown" ID="{72DBFE37-B1BA-424C-A69D-EE1DB56F341B}" OwnerID="{D4AA6AC3-A86A-4649-B762-079CCAD9AECC}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Phonepickup" ID="{6F801F48-DFA5-4F22-A818-BC126A169F0A}" ShortID="52615225">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>37</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-70</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="559475__nox_sound__foley_phone_old_pickup_hangup_mono" ID="{621EE0A6-320F-4407-AF1E-686486206184}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.0700831068761441"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.253377544072522"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>559475__nox_sound__foley_phone_old_pickup_hangup_mono.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="319030034"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="559475__nox_sound__foley_phone_old_pickup_hangup_mono" ID="{621EE0A6-320F-4407-AF1E-686486206184}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Phoneputdown" ID="{90E0595D-529C-43CC-96C7-137ECC6B75DC}" ShortID="967243725">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>32</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-70</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="559475__nox_sound__foley_phone_old_pickup_hangup_mono" ID="{99727A84-7F80-4158-B2F4-B32A9D4E65DF}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="5.21662731815029"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.62122628540177"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>559475__nox_sound__foley_phone_old_pickup_hangup_mono.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="31738693"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="559475__nox_sound__foley_phone_old_pickup_hangup_mono" ID="{99727A84-7F80-4158-B2F4-B32A9D4E65DF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

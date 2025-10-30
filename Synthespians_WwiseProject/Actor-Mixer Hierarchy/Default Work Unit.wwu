@@ -463,7 +463,7 @@
 					<PropertyList>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>22</Value>
+								<Value>47</Value>
 							</ValueList>
 						</Property>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -500,7 +500,8 @@
 								<AudioFileSource Name="ES_Metal Click, Close, Variations 02 - Epidemic Sound" ID="{73F40F70-FC39-4679-89CE-C4E607AE6EB7}">
 									<PropertyList>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.196225815144943"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.00382692145334707"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.099277138326817"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Tuesday\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav</AudioFile>
@@ -526,8 +527,8 @@
 								<AudioFileSource Name="ES_Metal Click, Close, Variations 02 - Epidemic Sound" ID="{730ACE79-407C-4744-BBBE-91BA477D8D92}">
 									<PropertyList>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.822579994540297"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.00431100801933"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.845541523260379"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.958387950579165"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Tuesday\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav</AudioFile>
@@ -553,8 +554,8 @@
 								<AudioFileSource Name="ES_Metal Click, Close, Variations 02 - Epidemic Sound" ID="{87E84C60-364F-40D5-A13A-ED6ED03458DD}">
 									<PropertyList>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="1.64878368949707"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.83051470297611"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.66154009434156"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.76928395972256"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Tuesday\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav</AudioFile>
@@ -590,12 +591,12 @@
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>21</Value>
+										<Value>39</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>390</Value>
+										<Value>150</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -610,10 +611,9 @@
 							<ChildrenList>
 								<AudioFileSource Name="ES_Buttons, Beeps - Epidemic Sound-ChSt_01-01" ID="{AC96603F-E57E-4969-9B91-D5AF32149844}">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.0798395981206061"/>
-										<Property Name="LoopEnd" Type="Real64" Value="0.151753279768092"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.337093452921504"/>
+										<Property Name="TrimBegin" Type="Real64" Value="5.51830956068914"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.71270672877899"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Edited\ES_Buttons, Beeps - Epidemic Sound-ChSt_01-01.wav</AudioFile>
@@ -791,6 +791,7 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<WorkUnit Name="PhonePickupdown" ID="{72DBFE37-B1BA-424C-A69D-EE1DB56F341B}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

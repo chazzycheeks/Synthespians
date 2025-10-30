@@ -1,0 +1,100 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2607556080",
+    "Type": "Event",
+    "GUID": "{EFD9D6BA-A2FB-4BE4-9A37-E9F86430AA63}",
+    "Language": "SFX",
+    "Hash": "{A4E9A1F8-464F-4BFF-7601-2A20C6FE5F2F}",
+    "ObjectPath": "Menu",
+    "ShortName": "Menu",
+    "Path": "Event/Menu.bnk",
+    "Events": [
+     {
+      "Id": "2607556080",
+      "Name": "Menu",
+      "ObjectPath": "\\Events\\MUSIC\\Menu",
+      "GUID": "{EFD9D6BA-A2FB-4BE4-9A37-E9F86430AA63}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "766723505",
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Menu",
+        "GUID": "{958C9F6A-0996-43FB-8EE4-1D87AA3F5CC5}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "766723505",
+      "Name": "Game_state",
+      "ObjectPath": "\\States\\MUSIC\\Game_state",
+      "GUID": "{F89DEF3C-55DD-4520-B773-849958231435}",
+      "States": [
+       {
+        "Id": "529726532",
+        "Name": "End",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\End",
+        "GUID": "{66E6120D-BF51-4F82-8E5B-87961435CC4C}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\None",
+        "GUID": "{17994B09-8B7F-4E8F-9FC8-733EDE11C4F4}"
+       },
+       {
+        "Id": "1031415606",
+        "Name": "Phone_final",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Phone_final",
+        "GUID": "{295594AD-4A97-417B-A8CF-9CAB6B662FBE}"
+       },
+       {
+        "Id": "2043358088",
+        "Name": "Day3",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Day3",
+        "GUID": "{D03810EF-7F68-4BFC-BE45-A41AFE58B8C9}"
+       },
+       {
+        "Id": "2043358089",
+        "Name": "Day2",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Day2",
+        "GUID": "{3D544958-923F-4CCA-A0B3-077F7B627D79}"
+       },
+       {
+        "Id": "2043358090",
+        "Name": "Day1",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Day1",
+        "GUID": "{F6C86D1D-B198-4EB9-9B7B-0B9D5A800BA5}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Menu",
+        "GUID": "{958C9F6A-0996-43FB-8EE4-1D87AA3F5CC5}"
+       },
+       {
+        "Id": "3104856687",
+        "Name": "Phone",
+        "ObjectPath": "\\States\\MUSIC\\Game_state\\Phone",
+        "GUID": "{FB201192-ADBC-4E25-BAB5-A084CD704875}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4E4A42F0-9DCA-36C2-F088-C268DC49C079}"
+ }
+}

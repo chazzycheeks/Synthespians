@@ -12,16 +12,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{F8111823-04AD-4BA4-93B2-F623E6049168}" ShortID="819149862">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="LowPass" ID="{6CBF95EC-BFFF-4E85-A141-D3912DB7FB06}" WorkUnitID="{3247E66F-9336-49B3-A71F-4D0D680F7742}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Phone" ID="{D5C1B38D-D14C-4AB3-9557-B66E2B54437C}">
@@ -128,37 +118,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Menu" ID="{958C9F6A-0996-43FB-8EE4-1D87AA3F5CC5}" WorkUnitID="{310386B1-B27D-41EF-A62E-1506DC92326E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="LowPass_on" ID="{14FDFB51-14DD-4EBB-95B9-4DFB079D9842}">
-					<ChildrenList>
-						<Action Name="" ID="{0585A59A-AF8F-43CC-A4A2-ED139C6FACFD}" ShortID="19882442">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="LowPass" ID="{6CBF95EC-BFFF-4E85-A141-D3912DB7FB06}" WorkUnitID="{3247E66F-9336-49B3-A71F-4D0D680F7742}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="LowPass_off" ID="{09B613AC-35E1-4ADC-8549-F8CFD0467697}">
-					<ChildrenList>
-						<Action Name="" ID="{9FBDFF0F-4C95-40A0-8423-E6368A102B9A}" ShortID="623859803">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="LowPass" ID="{6CBF95EC-BFFF-4E85-A141-D3912DB7FB06}" WorkUnitID="{3247E66F-9336-49B3-A71F-4D0D680F7742}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

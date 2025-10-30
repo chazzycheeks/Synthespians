@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{6BBD4A50-CBD0-49BB-88B9-7B1D9FA4ADE4}",
     "Language": "SFX",
-    "Hash": "{591109B0-12AF-2152-AE64-ED650C849324}",
+    "Hash": "{2947586A-4C95-EB14-044D-89CDF4BCDE4B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Walking",
     "ShortName": "Walking",
     "Path": "Walking.bnk",
@@ -50,6 +50,6 @@
     ]
    }
   ],
-  "FileHash": "{FA4C761F-08AC-2DA0-2DCD-469C412E9505}"
+  "FileHash": "{B6DC047A-EC95-CA54-65B5-CB535FC5A493}"
  }
 }

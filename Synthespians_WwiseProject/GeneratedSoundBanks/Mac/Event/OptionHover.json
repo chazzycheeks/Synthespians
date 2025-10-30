@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E3F8506D-E33D-4A57-A759-99F20CC93DF9}",
     "Language": "SFX",
-    "Hash": "{80A8E176-4FEB-379D-E4E0-ED9F3D07C626}",
+    "Hash": "{B27C758F-AC1C-5E82-4FCA-BF8FCC150FEB}",
     "ObjectPath": "OptionHover",
     "ShortName": "OptionHover",
     "Path": "Event/OptionHover.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Tuesday\\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav",
       "Path": "Media/145932348.wem",
-      "CachePath": "DC/{DC24CC3B-DD9E-0CBF-C7EA-3EFEBE0F9BCE}.wem"
+      "CachePath": "4B/{4B2C2A65-9B87-5928-1B27-06A0CF9321B3}.wem"
      },
      {
       "Id": "474370461",
@@ -31,7 +31,7 @@
       "Location": "Loose",
       "ShortName": "Tuesday\\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav",
       "Path": "Media/474370461.wem",
-      "CachePath": "19/{192D7CB9-4053-4E88-2C6A-3D6AED5A1734}.wem"
+      "CachePath": "05/{05B84D9D-9A2D-B1E9-B810-09403A0F6338}.wem"
      },
      {
       "Id": "860079385",
@@ -40,7 +40,7 @@
       "Location": "Loose",
       "ShortName": "Tuesday\\ES_Metal Click, Close, Variations 02 - Epidemic Sound.wav",
       "Path": "Media/860079385.wem",
-      "CachePath": "E7/{E7C5F4B3-66F0-E2BC-A5BA-E719F78301E2}.wem"
+      "CachePath": "C0/{C0C5FDD1-BB93-7914-14E0-6382A5128651}.wem"
      }
     ],
     "Events": [
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\OptionHover",
       "GUID": "{E3F8506D-E33D-4A57-A759-99F20CC93DF9}",
       "DurationType": "OneShot",
-      "DurationMin": "0.19817908",
-      "DurationMax": "0.21398579",
+      "DurationMin": "0.1040892",
+      "DurationMax": "0.123059906",
       "MediaRefs": [
        {
         "Id": "145932348"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{7ED95B05-5BC2-6052-D563-DF10AFDC2444}"
+  "FileHash": "{2A3E0066-C236-40A7-0E25-5BB94BA827DA}"
  }
 }

@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{BD64895C-EF6E-4790-BD8F-2743E0CDAA70}",
     "Language": "SFX",
-    "Hash": "{742050F8-3554-1689-9B22-6A2422A02672}",
+    "Hash": "{8E8BD5BC-5C96-9549-ACA9-991BF9DD77E9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Telephone",
     "ShortName": "Telephone",
     "Path": "Telephone.bnk",
     "Media": [
+     {
+      "Id": "31738693",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "559475__nox_sound__foley_phone_old_pickup_hangup_mono.wav",
+      "CachePath": "6D/{6D239CE5-8C17-4EC1-9EE1-5C2845B3A103}.wem"
+     },
+     {
+      "Id": "319030034",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "559475__nox_sound__foley_phone_old_pickup_hangup_mono.wav",
+      "CachePath": "F3/{F33AE7C9-B0FF-1C38-7A6A-EE6E4A02E318}.wem"
+     },
      {
       "Id": "608389334",
       "Language": "SFX",
@@ -25,6 +41,34 @@
      }
     ],
     "Events": [
+     {
+      "Id": "3512872207",
+      "Name": "PhonePickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\PhonePickup",
+      "GUID": "{3865756A-0235-480A-B5FF-A2A35C66D9E6}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.19085756",
+      "DurationMax": "0.19085756",
+      "MediaRefs": [
+       {
+        "Id": "319030034"
+       }
+      ]
+     },
+     {
+      "Id": "290748394",
+      "Name": "Phoneputdown",
+      "ObjectPath": "\\Events\\Default Work Unit\\Phoneputdown",
+      "GUID": "{819C0B74-BE56-4BCD-960D-E5C0318B6893}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.42129362",
+      "DurationMax": "0.42129362",
+      "MediaRefs": [
+       {
+        "Id": "31738693"
+       }
+      ]
+     },
      {
       "Id": "803747085",
       "Name": "TelephoneStart",
@@ -58,6 +102,6 @@
     ]
    }
   ],
-  "FileHash": "{9EE5EEDB-6563-9804-C2DE-D23C1F7FF76E}"
+  "FileHash": "{884A5004-C3BC-76E3-854B-D8BEF2343D4C}"
  }
 }

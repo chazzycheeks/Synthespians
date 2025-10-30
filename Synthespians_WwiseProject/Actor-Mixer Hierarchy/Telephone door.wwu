@@ -5,9 +5,14 @@
 			<ChildrenList>
 				<Sound Name="Door Open" ID="{F8F0D81B-53F2-4177-8FFD-B7E59B6CF9A2}" ShortID="1020289680">
 					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>29</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
-								<Value>-80</Value>
+								<Value>-140</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
@@ -28,10 +33,10 @@
 						<AudioFileSource Name="ES_Open, Close, Squeaky - Epidemic Sound" ID="{3B46A0A1-8CA7-4C19-A966-8E6F2371CB09}">
 							<PropertyList>
 								<Property Name="FadeInDuration" Type="Real64" Value="0.221109554921981"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.0842726299263923"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.266815909334811"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimBegin" Type="Real64" Value="13.102566444504"/>
-								<Property Name="TrimEnd" Type="Real64" Value="14.5352018907608"/>
+								<Property Name="TrimEnd" Type="Real64" Value="15.128126133727"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Tuesday\ES_Open, Close, Squeaky - Epidemic Sound.wav</AudioFile>

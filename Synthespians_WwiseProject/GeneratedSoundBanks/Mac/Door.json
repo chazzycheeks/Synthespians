@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{921A1919-FFBD-4A56-839F-0437F0193D00}",
     "Language": "SFX",
-    "Hash": "{6BAFB86B-E965-A323-EFAD-B8205C828D37}",
+    "Hash": "{C1AE6015-14D1-5874-B385-75290EE62084}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Door",
     "ShortName": "Door",
     "Path": "Door.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Tuesday\\ES_Open, Close, Squeaky - Epidemic Sound.wav",
-      "CachePath": "33/{33105206-9108-402E-5266-C4AF618552B3}.wem"
+      "CachePath": "93/{93ED8388-950F-F732-AC48-0366EF9F92AD}.wem"
      },
      {
       "Id": "880565442",
@@ -53,8 +53,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\DoorOpen",
       "GUID": "{305BF0E1-9C74-4CFD-9FFC-73A91ADD71FE}",
       "DurationType": "OneShot",
-      "DurationMin": "1.5003906",
-      "DurationMax": "1.5003906",
+      "DurationMin": "2.1961663",
+      "DurationMax": "2.1961663",
       "MediaRefs": [
        {
         "Id": "213780744"
@@ -64,6 +64,6 @@
     ]
    }
   ],
-  "FileHash": "{A3AA7116-3342-2095-D16C-159A414CD38F}"
+  "FileHash": "{5EAAC4F2-1C54-45AA-B972-1F032AE2450C}"
  }
 }
