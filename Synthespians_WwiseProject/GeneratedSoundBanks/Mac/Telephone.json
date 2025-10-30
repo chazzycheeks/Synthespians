@@ -10,13 +10,13 @@
     "Type": "User",
     "GUID": "{BD64895C-EF6E-4790-BD8F-2743E0CDAA70}",
     "Language": "SFX",
-    "Hash": "{E0F6C20A-2FE8-1581-3019-A3321BDC2643}",
+    "Hash": "{630D8409-F48D-84A2-2807-6630CEC1F939}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Telephone",
     "ShortName": "Telephone",
     "Path": "Telephone.bnk",
     "Media": [
      {
-      "Id": "841231097",
+      "Id": "608389334",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
@@ -30,10 +30,11 @@
       "Name": "TelephoneStart",
       "ObjectPath": "\\Events\\Default Work Unit\\TelephoneStart",
       "GUID": "{8605D8C1-5B3F-434A-A37E-7B229FF01535}",
+      "MaxAttenuation": "400",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "841231097"
+        "Id": "608389334"
        }
       ]
      },
@@ -50,6 +51,6 @@
     ]
    }
   ],
-  "FileHash": "{0D93313B-B454-7CE8-AB6C-38DDDE24FB35}"
+  "FileHash": "{CF24B2A3-FB29-E505-3A66-231D84B70332}"
  }
 }

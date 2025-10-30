@@ -386,14 +386,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound" ID="{6027B20D-1BA1-4E8D-BB45-7A8BCE6ACFA5}" ShortID="209073846">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="Digital Telephone Ring 📞 _ Phone Ring Sound _ Ringtone SFX  ringtone" ID="{AED0A372-DB7F-4375-8C00-E9A266D76AC4}" ShortID="686851592">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
@@ -403,20 +396,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound" ID="{34934CF8-B771-4867-9E23-F393BEF3468A}">
-									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="0"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
+								<AudioFileSource Name="Digital Telephone Ring 📞 _ Phone Ring Sound _ Ringtone SFX  ringtone" ID="{45874D1D-8648-4599-9DD2-4848D810E4CF}">
 									<Language>SFX</Language>
-									<AudioFile>Edited\ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound.wav</AudioFile>
+									<AudioFile>thursday\Digital Telephone Ring 📞 _ Phone Ring Sound _ Ringtone SFX  ringtone.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="558198679"/>
+										<MediaID ID="608389334"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="ES_Alcatel CE29166CE2 A Telephone Ringing - Epidemic Sound" ID="{34934CF8-B771-4867-9E23-F393BEF3468A}" Platform="Linked"/>
+								<ActiveSource Name="Digital Telephone Ring 📞 _ Phone Ring Sound _ Ringtone SFX  ringtone" ID="{45874D1D-8648-4599-9DD2-4848D810E4CF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
