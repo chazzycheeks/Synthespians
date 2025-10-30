@@ -3,7 +3,7 @@
   "Project": {
    "Name": "Synthespians_WwiseProject",
    "GUID": "{10069B66-9226-441F-B6CB-EA0A5E2090CE}",
-   "Generator": "2024.1.9.8920"
+   "Generator": "2024.1.8.8893"
   },
   "CacheRoot": "../.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{DCA77B58-85D2-3902-D001-9F7D4462812A}"
+  "FileHash": "{3EA21A23-E60E-5825-FCA8-337D8FB4A408}"
  }
 }
