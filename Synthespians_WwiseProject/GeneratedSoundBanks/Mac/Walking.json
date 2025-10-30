@@ -10,26 +10,18 @@
     "Type": "User",
     "GUID": "{6BBD4A50-CBD0-49BB-88B9-7B1D9FA4ADE4}",
     "Language": "SFX",
-    "Hash": "{2EFB0D93-76EA-6414-9486-CCD3FBDC4066}",
+    "Hash": "{591109B0-12AF-2152-AE64-ED650C849324}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Walking",
     "ShortName": "Walking",
     "Path": "Walking.bnk",
     "Media": [
-     {
-      "Id": "553498931",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ES_Asphalt, Male, Walk - Epidemic Sound.wav",
-      "CachePath": "C2/{C24BA27D-3B52-A450-AF5E-8D78726CA5C2}.wem"
-     },
      {
       "Id": "678717661",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "ES_Asphalt, Male, Walk - Epidemic Sound.wav",
-      "CachePath": "65/{65CDC0BD-1C1B-113F-9B13-561856C2298E}.wem"
+      "CachePath": "37/{37E019B6-C8D1-9CCC-2A65-F4BAACF23107}.wem"
      }
     ],
     "Events": [
@@ -38,13 +30,8 @@
       "Name": "WalkingStart",
       "ObjectPath": "\\Events\\Default Work Unit\\WalkingStart",
       "GUID": "{B1AD45AD-5983-4975-97D1-55029E4FBA42}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.3603635",
-      "DurationMax": "0.56592274",
+      "DurationType": "Infinite",
       "MediaRefs": [
-       {
-        "Id": "553498931"
-       },
        {
         "Id": "678717661"
        }
@@ -63,6 +50,6 @@
     ]
    }
   ],
-  "FileHash": "{E3A7E0D0-E847-9EDB-B288-FC36B3826880}"
+  "FileHash": "{FA4C761F-08AC-2DA0-2DCD-469C412E9505}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{BD64895C-EF6E-4790-BD8F-2743E0CDAA70}",
     "Language": "SFX",
-    "Hash": "{630D8409-F48D-84A2-2807-6630CEC1F939}",
+    "Hash": "{742050F8-3554-1689-9B22-6A2422A02672}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Telephone",
     "ShortName": "Telephone",
     "Path": "Telephone.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "thursday\\Digital Telephone Ring 📞 _ Phone Ring Sound _ Ringtone SFX  ringtone.wav",
-      "CachePath": "44/{44CE52A9-5F0E-9782-B574-2512758BD787}.wem"
+      "CachePath": "78/{78C9B3CC-7677-A881-0676-8C4ACB212C2A}.wem"
      }
     ],
     "Events": [
@@ -30,7 +30,6 @@
       "Name": "TelephoneStart",
       "ObjectPath": "\\Events\\Default Work Unit\\TelephoneStart",
       "GUID": "{8605D8C1-5B3F-434A-A37E-7B229FF01535}",
-      "MaxAttenuation": "400",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -48,9 +47,17 @@
       "DurationMin": "0",
       "DurationMax": "0"
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1273408633",
+      "Name": "TelephoneFade",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\TelephoneFade",
+      "GUID": "{25B23792-19BA-46CB-ADF2-BFEE1A05E899}"
+     }
     ]
    }
   ],
-  "FileHash": "{1B5BA9AB-67EB-CB66-6EDC-FFE26675AF40}"
+  "FileHash": "{9EE5EEDB-6563-9804-C2DE-D23C1F7FF76E}"
  }
 }

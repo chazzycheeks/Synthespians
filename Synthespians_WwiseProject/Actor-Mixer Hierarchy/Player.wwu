@@ -24,6 +24,8 @@
 								<Value>-350</Value>
 							</ValueList>
 						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-4</Value>
@@ -43,7 +45,7 @@
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>-100</Value>
+										<Value>50</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -60,7 +62,7 @@
 									<PropertyList>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="3.37585075784856"/>
-										<Property Name="TrimEnd" Type="Real64" Value="3.8122368386463"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.37566541007487"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>ES_Asphalt, Male, Walk - Epidemic Sound.wav</AudioFile>
@@ -71,40 +73,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="ES_Asphalt, Male, Walk - Epidemic Sound" ID="{A180DA5C-585E-4731-8C47-E06BF2E3237C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="ES_Asphalt, Male, Walk footstep 2" ID="{377C1E17-0558-4565-85C2-21E8225152BC}" ShortID="575783472">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>150</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F10FA4B9-8B15-4C3F-BC2A-991934E6FE3A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{156DD72B-7F11-4875-9329-59B7EDA6DFA4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="ES_Asphalt, Male, Walk - Epidemic Sound" ID="{F3A94974-614A-4F5B-901A-382F5DF6C3D0}">
-									<PropertyList>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="3.89382004883618"/>
-										<Property Name="TrimEnd" Type="Real64" Value="4.21486745553101"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>ES_Asphalt, Male, Walk - Epidemic Sound.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="553498931"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="ES_Asphalt, Male, Walk - Epidemic Sound" ID="{F3A94974-614A-4F5B-901A-382F5DF6C3D0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

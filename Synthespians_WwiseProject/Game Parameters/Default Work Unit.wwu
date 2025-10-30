@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3247E66F-9336-49B3-A71F-4D0D680F7742}" SchemaVersion="123">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{3247E66F-9336-49B3-A71F-4D0D680F7742}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3247E66F-9336-49B3-A71F-4D0D680F7742}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="TelephoneFade" ID="{25B23792-19BA-46CB-ADF2-BFEE1A05E899}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

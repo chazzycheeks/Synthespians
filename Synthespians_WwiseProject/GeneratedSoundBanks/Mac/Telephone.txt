@@ -2,6 +2,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	803747085	TelephoneStart			\Default Work Unit\TelephoneStart	
 	1284012751	TelephoneStop			\Default Work Unit\TelephoneStop	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1273408633	TelephoneFade			\Default Work Unit\TelephoneFade	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	608389334	Digital Telephone Ring í ½í³ž _ Phone Ring Sound _ Ringtone SFX  ringtone	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\44\{44CE52A9-5F0E-9782-B574-2512758BD787}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Telephone\Digital Telephone Ring í ½í³ž _ Phone Ring Sound _ Ringtone SFX  ringtone		893024
+	608389334	Digital Telephone Ring í ½í³ž _ Phone Ring Sound _ Ringtone SFX  ringtone	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\78\{78C9B3CC-7677-A881-0676-8C4ACB212C2A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Telephone\Digital Telephone Ring í ½í³ž _ Phone Ring Sound _ Ringtone SFX  ringtone		628816
 
