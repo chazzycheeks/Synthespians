@@ -112,12 +112,9 @@
 				<Event Name="Menu" ID="{EFD9D6BA-A2FB-4BE4-9A37-E9F86430AA63}">
 					<ChildrenList>
 						<Action Name="" ID="{E1A814B5-F3D0-4EB4-9DF8-1348ABC2A676}" ShortID="31254416">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Menu" ID="{958C9F6A-0996-43FB-8EE4-1D87AA3F5CC5}" WorkUnitID="{310386B1-B27D-41EF-A62E-1506DC92326E}"/>
+									<ObjectRef Name="MX_MENU" ID="{EC055034-3159-4263-BA5D-84EE70EC7C32}" WorkUnitID="{ED118B54-C894-43ED-88D0-F1B2824D9C52}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

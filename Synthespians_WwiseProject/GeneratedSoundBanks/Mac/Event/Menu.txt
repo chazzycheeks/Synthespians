@@ -1,3 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2607556080	Menu			\MUSIC\Menu	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	766723505	Game_state			\MUSIC\Game_state	
+
+State	ID	Name	State Group			Notes
+	529726532	End	Game_state			
+	748895195	None	Game_state			
+	1031415606	Phone_final	Game_state			
+	2043358088	Day3	Game_state			
+	2043358089	Day2	Game_state			
+	2043358090	Day1	Game_state			
+	2607556080	Menu	Game_state			
+	3104856687	Phone	Game_state			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	2031596562	Lightbulb			\Music\Lightbulb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+
