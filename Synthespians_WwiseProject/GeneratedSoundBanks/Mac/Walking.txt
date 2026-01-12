@@ -3,5 +3,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	946378050	WalkingStart			\Default Work Unit\WalkingStart	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	678717661	ES_Asphalt, Male, Walk - footstep 1	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\37\{37E019B6-C8D1-9CCC-2A65-F4BAACF23107}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player walkingrandom\ES_Asphalt, Male, Walk - footstep 1		192078
+	678717661	ES_Asphalt, Male, Walk - footstep 1	C:\Users\charlie.walters\Documents\Unreal Projects\Synthespians\Synthespians_WwiseProject\.cache\D8\{D82CC035-85FD-DD5C-EF4D-F946E5AAA8D4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player walkingrandom\ES_Asphalt, Male, Walk - footstep 1		192078
 

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{6BBD4A50-CBD0-49BB-88B9-7B1D9FA4ADE4}",
     "Language": "SFX",
-    "Hash": "{2947586A-4C95-EB14-044D-89CDF4BCDE4B}",
+    "Hash": "{30026520-E97E-577A-730B-88627770CC2F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Walking",
     "ShortName": "Walking",
     "Path": "Walking.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "ES_Asphalt, Male, Walk - Epidemic Sound.wav",
-      "CachePath": "37/{37E019B6-C8D1-9CCC-2A65-F4BAACF23107}.wem"
+      "CachePath": "D8/{D82CC035-85FD-DD5C-EF4D-F946E5AAA8D4}.wem"
      }
     ],
     "Events": [
@@ -50,6 +50,6 @@
     ]
    }
   ],
-  "FileHash": "{58E49FC2-3E5E-B05A-CA95-8022135DF214}"
+  "FileHash": "{E3665976-8CC9-96AD-272F-63807D1D1275}"
  }
 }

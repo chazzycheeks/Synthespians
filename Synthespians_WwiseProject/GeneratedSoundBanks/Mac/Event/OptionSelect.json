@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{730A826E-BBB3-456C-AF72-00283E7162DB}",
     "Language": "SFX",
-    "Hash": "{4E900C25-052A-07C5-B8D4-52D58FD13955}",
+    "Hash": "{77DEFFA4-5961-1DE4-6543-0BC05A92D765}",
     "ObjectPath": "OptionSelect",
     "ShortName": "OptionSelect",
     "Path": "Event/OptionSelect.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Edited\\ES_Buttons, Beeps - Epidemic Sound-ChSt_01-01.wav",
       "Path": "Media/410069902.wem",
-      "CachePath": "2F/{2F1C1467-C87C-49E6-22D7-676335E0FD75}.wem"
+      "CachePath": "DE/{DEE9E2D0-90C7-D809-01AC-DA832C0E77AB}.wem"
      }
     ],
     "Events": [
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{CC56E6DD-3D6A-4DCF-B7AA-28DCAEA5140F}"
+  "FileHash": "{CCD8ECE3-8042-BB85-5E41-E0691A85E4DC}"
  }
 }

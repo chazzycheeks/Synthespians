@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{BD64895C-EF6E-4790-BD8F-2743E0CDAA70}",
     "Language": "SFX",
-    "Hash": "{8E8BD5BC-5C96-9549-ACA9-991BF9DD77E9}",
+    "Hash": "{6BDDFE40-A49B-3CAB-1479-5BEEB982BBD7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Telephone",
     "ShortName": "Telephone",
     "Path": "Telephone.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "559475__nox_sound__foley_phone_old_pickup_hangup_mono.wav",
-      "CachePath": "6D/{6D239CE5-8C17-4EC1-9EE1-5C2845B3A103}.wem"
+      "CachePath": "AC/{AC793CBF-37B7-895F-8CEB-2D50D6CFEFC8}.wem"
      },
      {
       "Id": "319030034",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "559475__nox_sound__foley_phone_old_pickup_hangup_mono.wav",
-      "CachePath": "F3/{F33AE7C9-B0FF-1C38-7A6A-EE6E4A02E318}.wem"
+      "CachePath": "EE/{EEE675C3-DE9E-426E-AD43-E6C16138157D}.wem"
      },
      {
       "Id": "608389334",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "thursday\\Digital Telephone Ring 📞 _ Phone Ring Sound _ Ringtone SFX  ringtone.wav",
-      "CachePath": "78/{78C9B3CC-7677-A881-0676-8C4ACB212C2A}.wem"
+      "CachePath": "5D/{5DFB78B7-B2FC-C326-172C-B7D7B7A24733}.wem"
      }
     ],
     "Events": [
@@ -102,6 +102,6 @@
     ]
    }
   ],
-  "FileHash": "{87C0001A-3E68-52B6-F327-328F7616BEF3}"
+  "FileHash": "{ADA3A83D-0A53-5A35-0C61-283E23A077D9}"
  }
 }
